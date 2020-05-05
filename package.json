@@ -9,7 +9,7 @@
     "@types/styled-components": "^5.1.0"
   },
   "scripts": {
-    "storybook": "start-storybook -p 6006"
+    "storybook": "yarn start-storybook -p 6006"
   },
   "eslintConfig": {
     "extends": "react-app"
