@@ -1,0 +1,23 @@
+import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks'
+
+import Button from './Button'
+
+<Meta title='Button' component={Button} />
+
+# Badge
+
+Let's define a story for our `Button` component:
+
+We can drop it in a `Preview` to get a code snippet:
+
+<Preview>
+    <Button 
+      type='primary' 
+      className='btn'
+      onClick={() => alert('Click!')}
+    >Click me</Button>
+</Preview>
+
+## Props 🔧
+
+<Props of={Button} />
