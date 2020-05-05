@@ -9,7 +9,6 @@ export interface ButtonProps {
 
 export type ButtonType = 'primary' | 'dark' | 'darker' | 'default' | 'submit'
 
-// C O M P O N E N T
 const Button: React.FunctionComponent<ButtonProps> = (props) => {
   const { children, onClick, type, className = '' } = props
 
@@ -24,7 +23,6 @@ const Button: React.FunctionComponent<ButtonProps> = (props) => {
   )
 }
 
-// S T Y L E S
 const StyledButton = styled.button`
   color: red;
 `
